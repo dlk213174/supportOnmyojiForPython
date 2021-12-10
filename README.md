@@ -1,0 +1,2 @@
+# supportOnmyojiForPython
+supportOnmyojiMachine
