@@ -1,0 +1,72 @@
+# edit
+defaults:
+ - &window_0 'main'
+ - &window_1 'sub'
+
+ - &preset_war [2,1]
+ - &preset_def [2,2]
+ - &preset_sog [2,3]
+ - &preset_mit [3,1]
+ - &preset_exp [2,1]
+
+ - &times_def 50
+ - &times_sog 50
+ - &times_mit 50
+ - &times_exp 7
+
+ - &sleep_war 0
+ - &sleep_def 8
+ - &sleep_sog 15
+ - &sleep_mit 10
+ - &sleep_exp 0
+
+ - &buff_exp_0 [2,3,4]
+ - &buff_exp_1 [4,5]
+ - &buff_mit_0 []
+ - &buff_mit_1 [2]
+
+ - &option_war 2
+ - &option_aera 1
+ - &option_team 0
+ - &option_det_1 3
+ - &option_det_2 300
+
+# do not edit
+detect:
+  - *window_0
+  - *window_1
+  - *option_det_1
+  - *option_det_2
+teamFight:
+  - *window_0
+  - *option_team
+soloWard:
+  - *window_0
+  - *preset_war
+  - *option_war
+soloDef:
+  - *window_0
+  - *preset_def
+  - *times_def
+  - *sleep_def
+soloSog:
+  - *window_0
+  - *preset_sog
+  - *times_sog
+  - *sleep_sog
+multiMitama:
+  - *window_0
+  - *window_1
+  - *times_mit
+  - *preset_mit
+  - *buff_mit_0
+  - *buff_mit_1
+  - *option_aera
+multiExplore:
+  - *window_0
+  - *window_1
+  - *times_exp
+  - *preset_exp
+  - *buff_exp_0
+  - *buff_exp_1
+  - *option_aera
