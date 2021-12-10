@@ -1,5 +1,17 @@
 # supportOnmyojiForPython
 supportOnmyojiMachine
-修改"_config.yml"文件
-修改"__main__.py"文件
-运行"__main__.py"文件
+===========================
+
+###########环境依赖
+支持：雷电、雷神模拟器，前台、后台活动区
+长宽比例：=2*1
+实际缩放：>640*320
+其他：见requirements.txt
+
+###########操作步骤
+1. 修改配置参数
+    见_config.yml
+2. 修改任务参数
+    见__main__.py
+3. 运行
+    运行__main__.py
