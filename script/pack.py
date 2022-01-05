@@ -1,5 +1,6 @@
 import time
 
+from _data import *
 from fight import ModeOther, TaskQueue
 from scene import SceneChange
 
@@ -69,3 +70,15 @@ class MyClass:
     def soloSog(user, preset, times, sleep):
         SceneChange(user).presetReplace(*preset)
         TaskQueue(user).soloSogFight(times, sleep)
+
+    def activity(user, preset):
+        SceneChange(user).presetReplace(*preset)
+        SceneChange(user).ctrl.sceneClickOnce({'C':(458,74),'R': (35,30)})
+        SceneChange(user).ctrl.waitImg(r'img\act\act_0.png')
+        SceneChange(user).ctrl.sceneClickOnce({'C':(358,164),'R': (13,44)})
+        SceneChange(user).ctrl.waitImg(r'img\act\act_1.png')
+        for times in range(60):
+            SceneChange(user).ctrl.waitImg(r"img\act\fight.png")
+            SceneChange(user).ctrl.sceneClickLoseImg(r"img\act\fight.png")
+            SceneChange(user).fightStream({'C':(164,220),'R': (280,52)}, 
+                                          r"img\act\fal.png",7,0,0,0,3)

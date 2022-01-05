@@ -16,21 +16,28 @@ SET = yaml.safe_load(cont)
 MyClass.detect(*SET['detect'])
 # MyClass.teamFight(*SET['teamFight'])
 ROUNDS = 1
-while ROUNDS<4:
+while 1:
     print("\033[0;35;mCURRENT_ROUNDS_START: %s\033[0m" %ROUNDS)
+    
+    
     MyClass.soloWard(*SET['soloWard'])
     
-    MyClass.multiExplore(*SET['multiExplore'])
-    MyClass.soloWard(*SET['soloWard'])
+    # MyClass.multiExplore(*SET['multiExplore'])
+    # MyClass.soloWard(*SET['soloWard'])
     
-    MyClass.multiMitama(*SET['multiMitama'])
-    MyClass.soloWard(*SET['soloWard'])
+    # MyClass.multiMitama(*SET['multiMitama'])
+    # MyClass.soloWard(*SET['soloWard'])
     
     # MyClass.soloSog(*SET['soloSog'])
     # MyClass.soloWard(*SET['soloWard'])
     
     # MyClass.soloDef(*SET['soloDef'])
     # MyClass.soloWard(*SET['soloWard'])
+    
+    # MyClass.activity(*SET['activity'])
+    # MyClass.soloWard(*SET['soloWard'])
+    
+    
     print("\033[0;35;mCURRENT_ROUNDS_END: %s\033[0m" %ROUNDS)
     time.sleep(random.randint(1200,1500))
     ROUNDS += 1

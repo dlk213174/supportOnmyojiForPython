@@ -22,7 +22,8 @@ class ModeSolo():
         '''
         self.ctrl = basic.BasicMethod(windowName)
         self.move = scene.SceneChange(windowName)
-
+        
+        
     # 业原火
     def sogFight(self, all_times = 50, flow_time = 25):
         self.move.toSog()

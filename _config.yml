@@ -11,7 +11,7 @@ defaults:
 
  - &times_def 50
  - &times_sog 50
- - &times_mit 50
+ - &times_mit 60
  - &times_exp 7
 
  - &sleep_war 0
@@ -26,7 +26,7 @@ defaults:
  - &buff_mit_1 [2]
 
  - &option_war 2
- - &option_aera 1
+ - &option_aera 0
  - &option_team 0
  - &option_det_1 3
  - &option_det_2 300
@@ -70,3 +70,7 @@ multiExplore:
   - *buff_exp_0
   - *buff_exp_1
   - *option_aera
+activity:
+  - 'main'
+  - [4,2]
+
