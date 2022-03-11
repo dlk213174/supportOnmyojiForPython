@@ -11,7 +11,7 @@ defaults:
 
  - &times_def 50
  - &times_sog 50
- - &times_mit 60
+ - &times_mit 50
  - &times_exp 7
 
  - &sleep_war 0
@@ -20,13 +20,13 @@ defaults:
  - &sleep_mit 10
  - &sleep_exp 0
 
- - &buff_exp_0 [2,3,4]
- - &buff_exp_1 [4,5]
- - &buff_mit_0 []
+ - &buff_exp_0 [4,5,6]
+ - &buff_exp_1 []
+ - &buff_mit_0 [2]
  - &buff_mit_1 [2]
 
  - &option_war 2
- - &option_aera 0
+ - &option_aera 1
  - &option_team 0
  - &option_det_1 3
  - &option_det_2 300

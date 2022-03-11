@@ -19,19 +19,21 @@ ROUNDS = 1
 while 1:
     print("\033[0;35;mCURRENT_ROUNDS_START: %s\033[0m" %ROUNDS)
     
+    # MyClass.teamFight(*SET['teamFight'])
     
     MyClass.soloWard(*SET['soloWard'])
     
     # MyClass.multiExplore(*SET['multiExplore'])
     # MyClass.soloWard(*SET['soloWard'])
     
-    # MyClass.multiMitama(*SET['multiMitama'])
+    MyClass.multiMitama(*SET['multiMitama'])
+    MyClass.soloWard(*SET['soloWard'])
+    
+    
+    # MyClass.soloSog(*SET['soloSog']) 
     # MyClass.soloWard(*SET['soloWard'])
     
-    # MyClass.soloSog(*SET['soloSog'])
-    # MyClass.soloWard(*SET['soloWard'])
-    
-    # MyClass.soloDef(*SET['soloDef'])
+    # MyClass.soloDef(*SE-T['soloDef'])
     # MyClass.soloWard(*SET['soloWard'])
     
     # MyClass.activity(*SET['activity'])
