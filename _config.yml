@@ -26,7 +26,7 @@ defaults:
  - &buff_mit_1 [2]
 
  - &option_war 2
- - &option_aera 1
+ - &option_aera 0
  - &option_team 0
  - &option_det_1 3
  - &option_det_2 300

@@ -26,8 +26,8 @@ while 1:
     # MyClass.multiExplore(*SET['multiExplore'])
     # MyClass.soloWard(*SET['soloWard'])
     
-    MyClass.multiMitama(*SET['multiMitama'])
-    MyClass.soloWard(*SET['soloWard'])
+    # MyClass.multiMitama(*SET['multiMitama'])
+    # MyClass.soloWard(*SET['soloWard'])
     
     
     # MyClass.soloSog(*SET['soloSog']) 

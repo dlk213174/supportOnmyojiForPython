@@ -227,7 +227,7 @@ class BasicMethod():
 if __name__ == '__main__':
     test = BasicMethod('main')
     # print(test.discernShot('img\war\ward_in.png'))
-    cv2.imwrite('esc.png', test.screenShot())
+    cv2.imwrite('preset_0.png', test.screenShot())
     # while 1:
     #     cv2.imshow('look', test.screen_shot())
     #     cv2.waitKey(10)
